@@ -330,7 +330,7 @@
   
   /**
    * CUSTOM SLIDER & SCROLLBAR
-   */
+ 
   
   .movies-list.has-scrollbar {
     display: flex;
@@ -355,7 +355,7 @@
     box-shadow: inset 0 1px 0 var(--black),
                 inset 0 -1px 0 var(--black);
   }
-  
+    */
   
   
   
