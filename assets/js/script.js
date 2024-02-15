@@ -1,4 +1,4 @@
-'use strict';
+
 const navOpenBtn = document.querySelector("[data-menu-open-btn]");
 const navCloseBtn = document.querySelector("[data-menu-close-btn]");
 const navbar = document.querySelector("[data-navbar]");
@@ -6,6 +6,7 @@ const overlay = document.querySelector("[data-overlay]");
 
 const navElemArr = [navOpenBtn, navCloseBtn, overlay];
 
+/*for the side navbar */ 
 for (let i = 0; i < navElemArr.length; i++) {
 
   navElemArr[i].addEventListener("click", function () {
@@ -18,7 +19,7 @@ for (let i = 0; i < navElemArr.length; i++) {
 
 }
 
-
+/*the background of the header while scrolling*/ 
 const header = document.querySelector("[data-header]");
 
 window.addEventListener("scroll", function () {
@@ -28,10 +29,3 @@ window.addEventListener("scroll", function () {
 });
 
 
-const goTopBtn = document.querySelector("[data-go-top]");
-
-window.addEventListener("scroll", function () {
-
-  window.scrollY >= 500 ? goTopBtn.classList.add("active") : goTopBtn.classList.remove("active");
-
-});
