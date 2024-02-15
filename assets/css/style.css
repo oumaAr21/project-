@@ -59,12 +59,7 @@
   
   
   
-  
-  
-  /*-----------------------------------*\
-   * #RESET
-  \*-----------------------------------*/
-  
+  /*///////////////*/
   *, *::before, *::after {
     margin: 0;
     padding: 0;
@@ -1265,6 +1260,9 @@ the width of the icon
   
   
   /*Login and Register */ 
+
+
+
   .form_container {
     padding-inline: 75px;
     margin: 150px auto; /* Add this line */
